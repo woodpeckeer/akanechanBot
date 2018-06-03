@@ -63,6 +63,11 @@ gem "rspec"
 #デバッグ用
 gem 'pry-byebug', group: :development
 
+#LINEbotの導入
+gem 'line-bot-api'
+gem "faraday"
+gem "faraday_middleware"
+
 #heroku
 group :production do
   gem 'pg', '0.21.0'
